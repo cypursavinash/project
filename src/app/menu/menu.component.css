@@ -1,0 +1,33 @@
+.main{
+    font-style: italic;
+    background-color: silver;
+     color: black;
+    text-align: center;
+    margin: 60px;
+    padding: 20px;
+}
+.img{
+    height: 40px;
+    width: 30px;
+}
+.tect{
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.cbtn{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 800;
+    background-color:lightblue;
+}
+.any{
+    padding-top: 10px;
+   
+}
+.btn2{
+    background-color:lightblue;
+    font-weight: 800;
+    font-size: 18px;
+}

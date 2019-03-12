@@ -1,0 +1,23 @@
+<div class="main">
+
+  
+    <h1><b>How Many Boxes You Want?</b></h1>
+    <label>
+     <div class="tect"> Question:
+       <input type="text" name="number" [(ngModel)] = "num1"  />
+      </div>
+       
+      
+        
+      <input type="button" class="btn cbtn"  value = "Calc_value" (click) = "jump()" />
+   
+
+      <div *ngIf = "hide" >
+      
+    <div class="btn any" *ngFor="let data of right_Number;let a = index" > Product - {{a+1}}<input type="text" [value]="right_Number[a]" /></div>
+    
+  
+    <input type="button" class="btn btn2" value = "Save_data"  />
+  </div> 
+  </label>
+  </div>
